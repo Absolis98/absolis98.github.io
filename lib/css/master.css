@@ -16,25 +16,27 @@ body {
   background-color: #222f35;
 }
 
-#header {
+.block {
   background-color: #1e2021;
 }
 
-#header-container {
+.block-container {
   display: flex;
   margin: auto;
   max-width: 80em;
   color: #b5aea4;
+  padding-right: 2.5em;
+  padding-left: 2.5em;
 }
 
 #headshot {
   width: 290px;
   height: 290px;
   border-radius: 50%;
-  margin: 2em;
+  margin: 2em 2em 2em 0;
 }
 
-#sub-header {
+.sub-header {
   margin: 0;
   margin-top: 4em;
 }
@@ -89,6 +91,14 @@ a img {
   padding: 1.5em;
 }
 
+#left .card:last-child {
+  margin-bottom: 2.5em;
+}
+
+#right .card {
+  margin-left: 0;
+}
+
 .card h3 {
   font-size: 2rem;
   margin: 0;
@@ -101,6 +111,10 @@ a img {
   margin-bottom: 0;
 }
 
-#right .card {
-  margin-left: 0;
+#footer .sub-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 0 4em 0;
 }
