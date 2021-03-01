@@ -67,6 +67,7 @@ a img {
   max-width: 80em;
   display: grid;
   grid-template-columns: 2.5fr 1fr;
+  align-items: flex-start;
 }
 
 #left {
@@ -86,7 +87,6 @@ a img {
   background-color: #181a1b;
   color: #aca59a;
   padding: 1.5em;
-  height: auto;
 }
 
 .card h3 {
@@ -95,8 +95,10 @@ a img {
 }
 
 .card p {
+  font-size: 1.15rem;
   line-height: 24px;
   text-align: justify;
+  margin-bottom: 0;
 }
 
 #right .card {
